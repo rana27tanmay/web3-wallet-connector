@@ -2,11 +2,6 @@
 
 A modern, production-ready Ethereum wallet connection interface built with React and TypeScript. Features a sleek Web3 design with glass morphism effects, smooth animations, and secure wallet integration.
 
-![Web3 Wallet](https://img.shields.io/badge/Web3-Wallet-blue)
-![React](https://img.shields.io/badge/React-18.2+-61dafb)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178c6)
-![Ethers](https://img.shields.io/badge/Ethers.js-6.10+-3c3c3d)
-
 ## ✨ Features
 
 - **MetaMask Integration** - Seamless wallet connection
