@@ -53,7 +53,7 @@ const WalletConnector = () => {
             <label className="text-sm opacity-80 mb-2 block">Balance</label>
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center">
-                <span className="text-sm">⛽</span>
+                <span className="text-sm">💰</span>
               </div>
               <span className="text-2xl font-bold text-gradient">
                 {parseFloat(balance).toFixed(4)} ETH
@@ -81,7 +81,7 @@ const WalletConnector = () => {
   }
 
   return (
-    <div className="card max-w-md mx-auto text-center floating">
+    <div className="card max-w-md mx-auto text-center floating" style={{ marginTop: '2rem' }}>
       <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 neon-glow">
         <span className="text-3xl">👛</span>
       </div>
@@ -95,7 +95,7 @@ const WalletConnector = () => {
       </p>
 
       {error && (
-        <div className="glass-dark border border-red-400 text-red-300 px-4 py-3 rounded-xl mb-6 text-sm neon-glow">
+        <div className="glass-dark border border-red-400 text-red-300 px-4 py-3 rounded-xl mb-6">
           ⚠️ {error}
         </div>
       )}
@@ -112,8 +112,8 @@ const WalletConnector = () => {
           </span>
         ) : (
           <span className="flex items-center justify-center gap-3">
-            <span className="w-6 h-6">🦊</span>
-            Connect MetaMask
+            <span className="w-6 h-6">🔗</span>
+            Connect Wallet
           </span>
         )}
       </button>
