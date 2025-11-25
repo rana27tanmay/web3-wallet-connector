@@ -1,6 +1,4 @@
-Here's the updated README.md with the improved styling and features:
 
-### README.md
 ```markdown
 # Web3 Wallet Connector 🔗
 
