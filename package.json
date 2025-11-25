@@ -1,8 +1,23 @@
 {
   "name": "web3-wallet-connector",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
+  "description": "A modern, production-ready Ethereum wallet connection interface for React applications",
+  "author": "amvitor-cm <amvitor.cm@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amvitor-cm/web3-wallet-connector"
+  },
+  "keywords": [
+    "web3",
+    "wallet",
+    "ethereum",
+    "metamask",
+    "react",
+    "blockchain",
+    "dapp"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
