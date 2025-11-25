@@ -83,7 +83,7 @@ const WalletConnector = () => {
   return (
     <div className="card max-w-md mx-auto text-center floating" style={{ marginTop: '2rem' }}>
       <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 neon-glow">
-        <span className="text-3xl">👛</span>
+        <span className="text-3xl">💳</span>
       </div>
       
       <h1 className="text-3xl font-bold text-gradient text-glow mb-3">
