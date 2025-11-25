@@ -23,22 +23,25 @@ const WalletConnector = () => {
 
   if (account) {
     return (
-      <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 max-w-md mx-auto">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-semibold text-gray-900">Wallet Connected</h2>
-          <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+      <div className="card max-w-md mx-auto neon-glow">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-bold text-gradient">Wallet Connected</h2>
+          <div className="flex items-center gap-2">
+            <div className="status-indicator"></div>
+            <span className="text-sm text-green-400">Connected</span>
+          </div>
         </div>
         
-        <div className="space-y-3">
-          <div>
-            <label className="text-sm font-medium text-gray-600">Address</label>
-            <div className="flex items-center gap-2 mt-1">
-              <code className="bg-gray-100 px-3 py-1 rounded text-sm font-mono">
+        <div className="space-y-4">
+          <div className="glass-dark p-4 rounded-xl">
+            <label className="text-sm opacity-80 mb-2 block">Wallet Address</label>
+            <div className="flex items-center justify-between">
+              <code className="text-lg font-mono bg-black bg-opacity-30 px-3 py-2 rounded-lg">
                 {formatAddress(account)}
               </code>
               <button
                 onClick={() => navigator.clipboard.writeText(account)}
-                className="text-gray-500 hover:text-gray-700 transition-colors"
+                className="glass p-2 rounded-lg hover:bg-opacity-50 transition-all"
                 title="Copy address"
               >
                 📋
@@ -46,22 +49,30 @@ const WalletConnector = () => {
             </div>
           </div>
           
-          <div>
-            <label className="text-sm font-medium text-gray-600">Balance</label>
-            <p className="text-lg font-semibold text-gray-900 mt-1">
-              {parseFloat(balance).toFixed(4)} ETH
-            </p>
+          <div className="glass-dark p-4 rounded-xl">
+            <label className="text-sm opacity-80 mb-2 block">Balance</label>
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center">
+                <span className="text-sm">⛽</span>
+              </div>
+              <span className="text-2xl font-bold text-gradient">
+                {parseFloat(balance).toFixed(4)} ETH
+              </span>
+            </div>
           </div>
           
-          <div>
-            <label className="text-sm font-medium text-gray-600">Network</label>
-            <p className="text-gray-900 mt-1">{getNetworkName(chainId)}</p>
+          <div className="glass-dark p-4 rounded-xl">
+            <label className="text-sm opacity-80 mb-2 block">Network</label>
+            <div className="flex items-center gap-3">
+              <div className="w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full"></div>
+              <span className="font-semibold">{getNetworkName(chainId)}</span>
+            </div>
           </div>
         </div>
         
         <button
           onClick={disconnectWallet}
-          className="w-full mt-6 bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg transition-colors font-medium"
+          className="btn-secondary w-full mt-6"
         >
           Disconnect Wallet
         </button>
@@ -70,43 +81,48 @@ const WalletConnector = () => {
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 max-w-md mx-auto text-center">
-      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-        <span className="text-2xl">👛</span>
+    <div className="card max-w-md mx-auto text-center floating">
+      <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 neon-glow">
+        <span className="text-3xl">👛</span>
       </div>
       
-      <h2 className="text-xl font-semibold text-gray-900 mb-2">
-        Connect Your Wallet
-      </h2>
+      <h1 className="text-3xl font-bold text-gradient text-glow mb-3">
+        Connect Wallet
+      </h1>
       
-      <p className="text-gray-600 mb-6">
-        Connect your Ethereum wallet to get started with our application.
+      <p className="text-lg opacity-80 mb-8">
+        Secure connection to access Web3 features
       </p>
 
       {error && (
-        <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg mb-4 text-sm">
-          {error}
+        <div className="glass-dark border border-red-400 text-red-300 px-4 py-3 rounded-xl mb-6 text-sm neon-glow">
+          ⚠️ {error}
         </div>
       )}
 
       <button
         onClick={connectWallet}
         disabled={isConnecting}
-        className="wallet-connector w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white py-3 px-4 rounded-lg font-medium transition-all"
+        className="btn-primary w-full py-4 text-lg"
       >
         {isConnecting ? (
-          <span className="flex items-center justify-center gap-2">
-            <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-            Connecting...
+          <span className="flex items-center justify-center gap-3">
+            <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+            Connecting to Wallet...
           </span>
         ) : (
-          'Connect MetaMask'
+          <span className="flex items-center justify-center gap-3">
+            <span className="w-6 h-6">🦊</span>
+            Connect MetaMask
+          </span>
         )}
       </button>
 
-      <p className="text-xs text-gray-500 mt-4">
-        We support MetaMask and other Ethereum-compatible wallets.
-      </p>
+      <div className="mt-6 p-4 glass-dark rounded-xl">
+        <p className="text-sm opacity-60">
+          🔒 Secure • 🚀 Fast • 🌐 Multi-Chain
+        </p>
+      </div>
     </div>
   );
 };
