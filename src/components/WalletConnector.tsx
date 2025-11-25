@@ -112,7 +112,7 @@ const WalletConnector = () => {
           </span>
         ) : (
           <span className="flex items-center justify-center gap-3">
-            <span className="w-6 h-6">🔗</span>
+            <span className="w-6 h-6"></span>
             Connect Wallet
           </span>
         )}
@@ -120,7 +120,7 @@ const WalletConnector = () => {
 
       <div className="mt-6 p-4 glass-dark rounded-xl">
         <p className="text-sm opacity-60">
-          🔒 Secure • 🚀 Fast • 🌐 Multi-Chain
+           Secure •  Fast •  Multi-Chain
         </p>
       </div>
     </div>
