@@ -1,6 +1,6 @@
 # Web3 Wallet Connector 🔗
 
-A modern, production-ready Ethereum wallet connection interface built with React and TypeScript. Features a sleek Web3 design with glass morphism effects, smooth animations, and secure wallet integration.
+A modern, production-ready Ethereum wallet connector built with React and TypeScript. Features a sleek Web3 design with glass morphism effects, smooth animations, and secure wallet integration.
 
 ## ✨ Features
 
