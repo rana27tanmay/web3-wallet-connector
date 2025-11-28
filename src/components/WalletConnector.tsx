@@ -130,7 +130,7 @@ const WalletConnector = () => {
   }
 
   return (
-    <div className="card-cyber max-w-md mx-auto text-center cyber-float" style={{ marginTop: '2rem' }}>
+    <div className="card-cyber max-w-md mx-auto text-center cyber-glow" style={{ marginTop: '2rem' }}>
       <div className="icon-wrapper mx-auto mb-8 w-24 h-24 rounded-2xl cyber-glow-purple">
         <WalletIcon />
       </div>
@@ -168,7 +168,7 @@ const WalletConnector = () => {
 
       <div className="glass-card border border-slate-600 rounded-2xl p-5">
         <p className="text-sm text-slate-400 font-medium tracking-wider">
-          🔐 ENCRYPTED • ⚡ INSTANT • 🌐 MULTICHAIN
+           ENCRYPTED •  INSTANT •  MULTICHAIN
         </p>
       </div>
     </div>
