@@ -1,4 +1,4 @@
-# Web3 Wallet Connector 🔗
+# Web3 Wallet Connector 
 
 A sleek cyberpunk Ethereum wallet connector designed to modernize your dApp. No outdated UI - just fast, futuristic wallet interactions.
 
