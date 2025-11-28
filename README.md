@@ -67,7 +67,7 @@ I went with a cyberpunk theme because:
 
 **Supported Networks:**
 - Ethereum Mainnet (where the real money is)
-- Goerli Testnet (RIP soon)
+- Goerli Testnet (deprecated)
 - Sepolia Testnet (the new hotness)
 - Polygon Mainnet (for lower gas fees)
 - Mumbai Testnet (Polygon's testnet)
