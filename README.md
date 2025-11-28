@@ -55,7 +55,7 @@ function YourApp() {
 }
 ```
 
-## 🎨 Why It Looks Like This
+## Why It Looks Like This
 
 I went with a cyberpunk theme because:
 - Most Web3 UIs are either too corporate or too cartoonish
@@ -89,7 +89,7 @@ src/
 └── App.tsx                    # Wrapper with cool grid background
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 **Vercel (easiest):**
 ```bash
@@ -111,7 +111,7 @@ npx vercel --prod
 - Network detection depends on the wallet providing correct chain IDs
 - If MetaMask isn't installed, it shows an error (obviously)
 
-## 🤝 Want to Improve This?
+##  Want to Improve This?
 
 Found a bug? Have a cool idea?
 - Open an issue
