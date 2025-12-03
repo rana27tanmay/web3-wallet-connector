@@ -11,18 +11,18 @@ A sleek cyberpunk Ethereum wallet connector designed to modernize your dApp. No 
 - **Looks decent on mobile** - because most crypto users are on phones
 - **Proper error handling** - when users inevitably click "reject" by accident
 
-## 🚀 Live Demo
+##  Live Demo
 
 [See it in action](https://web3-wallet-connector-mocha.vercel.app/) 
 
-## 🛠 What's Under the Hood
+##  What's Under the Hood
 
 - **React 18 + TypeScript** - for type safety and modern React patterns
 - **Ethers.js v6** - because v5 is deprecated and I like staying current
 - **Custom CSS** - no UI framework bloat, just clean cyberpunk styling
 - **Vite** - because Create React App is slow and I'm impatient
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 ```bash
 # Clone it
@@ -63,7 +63,7 @@ I went with a cyberpunk theme because:
 - Glass morphism actually looks good when done right
 - The grid background gives that "matrix" feel without being cheesy
 
-## 🔧 What Works Right Now
+##  What Works Right Now
 
 **Supported Networks:**
 - Ethereum Mainnet (where the real money is)
@@ -76,7 +76,7 @@ I went with a cyberpunk theme because:
 - MetaMask (the one everyone uses)
 - Any wallet that follows EIP-1193 standard
 
-## 📁 Code Structure
+##  Code Structure
 
 ```
 src/
@@ -118,13 +118,13 @@ Found a bug? Have a cool idea?
 - Send a PR
 - Fork it and make it better
 
-## 📞 Find Me
+##  Find Me
 
 - **GitHub**: [@amvitor-cm](https://github.com/amvitor-cm)
 - **Email**: amvitor.cm@gmail.com
 - **Telegram**: @amvitor
 
-## 📄 License
+##  License
 
 MIT - feel free to use this project for personal or commercial purposes.
 
